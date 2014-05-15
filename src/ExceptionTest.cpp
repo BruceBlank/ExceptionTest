@@ -42,7 +42,7 @@ int main() {
 	try{
 		func1();
 	}
-	catch(ExceptA){
+	catch(const ExceptA &){
 		cout << "ExceptA caught!" << endl;
 	}
 
